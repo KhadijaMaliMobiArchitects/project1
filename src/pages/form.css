@@ -1,0 +1,70 @@
+/* @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext'); */
+
+
+.input {
+    
+    height: 57px;
+    width: 500px;
+    border: 1px solid #C8C8D5;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+}
+
+.button {
+    height: 56px;
+    width: 160px;
+    border-radius: 6px;
+    background-color: linear-gradient(0deg, #2296F7 0%, #0F5DEC 100%);
+    color:  black;
+    font-size: 0px;
+}
+
+.register {
+    margin-top: 30px;
+    color: black;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 19px;
+    position: relative;
+    left:10%
+  }
+  .creer{
+    color: #EF7B56;
+  }
+
+  .forgetpasswordrectangle {
+    position: relative;
+    top: 60px;
+    left:-25px;
+    box-sizing: border-box;
+    height: 70px;
+    width: 601px;
+    border: 1px solid #DDE4EB;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 0 0 rgba(90,113,208,0.11);
+  }
+    .rectangle {
+        position: relative;
+        top: 60px;
+        box-sizing: border-box;
+        height: 400px;
+        width: 682px;
+        border: 1px solid #DDE4EB;
+        border-radius: 8px;
+        background-color: #FFFFFF;
+        box-shadow: 0 0 0 0 rgba(90,113,208,0.11);
+        
+    }
+    .forgetpassword {
+        position: relative;
+        top: 34%;
+        text-decoration: underline;
+        left: 30px;
+        font-weight: bold;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+    }
