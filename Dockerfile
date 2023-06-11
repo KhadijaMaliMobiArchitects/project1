@@ -10,6 +10,9 @@ COPY package*.json ./
 # Installation des dependances
 RUN npm install --production
 
+# Installation du module @faker-js/faker pour resoudre le prob
+RUN npm install @faker-js/faker
+
 # Copie du reste des fichiers de l application
 COPY . .
 
